@@ -16,6 +16,12 @@ header {
   display: block;
 }
 
+.hamburger-icon img {
+  width: 40px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
 #headline-section {
   background: url("../Images/waraMobile.jpg");
   background-repeat: no-repeat;
