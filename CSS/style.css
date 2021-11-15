@@ -102,7 +102,7 @@ header {
 .main-line {
   background-color: #ec5242;
   height: 2px;
-  width: 16%;
+  width: 60px;
   margin: 15px auto 50px auto;
 }
 
@@ -141,9 +141,72 @@ header {
   align-items: center;
 }
 
-#featured-speakers {
-  height: 60vh;
-  border: 2px solid red;
+.featured-speakers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.speaker-catagories {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  padding-bottom: 45px;
+}
+
+.speaker-text {
+  width: 55%;
+}
+
+.speaker-img img {
+  width: 140px;
+}
+
+.speaker-name h5 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.speaker-position p {
+  margin: 0;
+  color: #ec5242;
+  font-size: 14px;
+  padding-top: 6px;
+}
+
+.speaker-detail p {
+  margin: 0;
+  font-size: 12px;
+  padding-top: 5px;
+  color: #272a31;
+}
+
+.featured-speakers-container button {
+  width: 90%;
+  background: #fff;
+  padding: 5px;
+  margin-bottom: 50px;
+  color: darkslategray;
+  font-size: 16px;
+  border: 1px solid darkslategray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-speakers-container button span {
+  color: #ec5242;
+  font-size: 20px;
+}
+
+.featured-speakers-container button .more {
+  color: #000;
+  font-size: 15px;
+  padding-right: 5px;
+}
+
+.featured-line {
+  margin-bottom: 50px;
 }
 
 #partner {
