@@ -26,7 +26,7 @@ header {
   background: url("../Images/waraMobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 12px 20px 15px;
+  padding: 100px 15px 50px 15px;
 }
 
 .headline-title-text p {
@@ -40,7 +40,7 @@ header {
   background: -webkit-linear-gradient(#d52b1a, #ec5242);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 35px;
+  font-size: 41px;
   font-weight: 900;
   margin: 5px 0;
 }
@@ -83,14 +83,14 @@ header {
 
 .main-program-container button {
   background: #ec5242;
-  padding: 20px;
+  padding: 30px;
   margin: 40px;
   color: #fff;
   font-size: 16px;
   border: none;
 }
 
-#main-program h3 {
+.main-program-container h3 {
   color: #e9e3e3;
   text-align: center;
   padding-top: 20px;
@@ -102,15 +102,15 @@ header {
 .main-line {
   background-color: #ec5242;
   height: 2px;
-  width: 60px;
+  width: 50px;
   margin: 15px auto 50px auto;
 }
 
 .program-catagories {
   display: flex;
   justify-content: space-evenly;
-  background-color: #e5dbdb3d;
-  margin: 5px 15px;
+  background-color: #f3ebeb26;
+  margin: 8px 15px;
   width: 92%;
 }
 
@@ -147,10 +147,16 @@ header {
   align-items: center;
 }
 
+.featured-speakers-container h3 {
+  padding-top: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
 .speaker-catagories {
   display: flex;
-  justify-content: space-around;
-  width: 95%;
+  justify-content: center;
   padding-bottom: 45px;
 }
 
@@ -160,6 +166,7 @@ header {
 
 .speaker-img img {
   width: 140px;
+  padding-right: 20px;
 }
 
 .speaker-name h5 {
@@ -188,7 +195,7 @@ header {
   margin-bottom: 50px;
   color: darkslategray;
   font-size: 16px;
-  border: 1px solid darkslategray;
+  border: 1px solid #d3d3d3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -200,7 +207,7 @@ header {
 }
 
 .featured-speakers-container button .more {
-  color: #000;
+  color: #272a31;
   font-size: 15px;
   padding-right: 5px;
 }
