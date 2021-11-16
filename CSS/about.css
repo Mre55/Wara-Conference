@@ -1,0 +1,26 @@
+#headline-section {
+  background: url("../Images/waraAboutMobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline-title-text p {
+  text-align: center;
+}
+
+.headline-title-text h2 {
+  text-align: center;
+}
+
+.headline-box-text {
+  background: #ffffffbf;
+  border: 2px solid #2a282829;
+}
+
+.headline-box-text p {
+  text-align: center;
+}
+
+.headline-bottom-text {
+  padding: 10px 30px 25px 30px;
+}
