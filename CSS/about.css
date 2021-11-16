@@ -117,3 +117,45 @@
   font-size: 25px;
   color: white;
 }
+
+.partner-container {
+  background: #272a31;
+}
+
+.partner-container h3 {
+  font-size: 30px;
+  color: white;
+  padding: 30px 35px 0 35px;
+  text-align: center;
+}
+
+.partner-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 27px;
+  color: #ece8e9db;
+  line-height: 50px;
+  padding-bottom: 50px;
+}
+
+.partner-list h4 {
+  margin: 0;
+}
+
+footer {
+  display: flex;
+}
+
+.footer-logo-img img {
+  width: 100px;
+  padding: 20px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  color: darkslategray;
+  font-size: 15px;
+}

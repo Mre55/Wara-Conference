@@ -209,17 +209,6 @@ header {
   margin-bottom: 50px;
 }
 
-#partner {
-  height: 40vh;
-  background: #272a31;
-  border: 2px solid green;
-}
-
-footer {
-  height: 20vh;
-  border: 2px solid red;
-}
-
 @media screen and (min-width: 768px) {
   .only-mobile {
     display: none;
