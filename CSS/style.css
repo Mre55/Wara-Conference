@@ -216,6 +216,66 @@ section.main-program {
   margin-bottom: 50px;
 }
 
+.partner-container {
+  background: #272a31;
+}
+
+.partner-container .main-line {
+  margin: 15px auto 0 auto;
+}
+
+.partner-container h3 {
+  font-size: 30px;
+  color: white;
+  padding: 30px 35px 0 35px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.partner-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 27px;
+  color: #ece8e9db;
+  line-height: 50px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.partner-container-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-list h4 {
+  margin: 0;
+}
+
+.partner-list-element {
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #d3d3d3;
+}
+
+.footer-logo-img img {
+  width: 100px;
+  padding: 20px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  color: darkslategray;
+  font-size: 15px;
+}
+
 @media screen and (min-width: 768px) {
   .only-mobile {
     display: none;
