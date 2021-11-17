@@ -224,7 +224,7 @@ section.main-program {
   font-size: 18px;
 }
 
-.speaker-position p {
+.speaker-title p {
   margin: 0;
   color: #ec5242;
   font-size: 14px;
@@ -311,6 +311,10 @@ section.main-program {
 
 .partner-list-element {
   padding: 10px;
+}
+
+.partner-list-element img {
+  width: 60px;
 }
 
 .footer-container {
