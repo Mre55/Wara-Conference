@@ -82,7 +82,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin: 40px auto;
   padding-top: 20px;
   color: darkslategray;
   border-top: 2px solid #d3d3d3;
@@ -105,13 +105,18 @@
   padding: 0 60px;
 }
 
+.past-conference-images {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
 .past-conference-img-one {
   background-image: url("../Images/AboutPageImage.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  width: 90%;
   background-repeat: no-repeat;
   height: 30vh;
 }
@@ -128,7 +133,6 @@
   justify-content: center;
   align-items: center;
   background-size: cover;
-  width: 90%;
   background-repeat: no-repeat;
   height: 30vh;
   margin: 25px 0;
@@ -254,7 +258,10 @@ footer {
   }
 
   .headline-section {
-    padding: 8% 15% 7% 15%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .headline-title-text p {
@@ -263,10 +270,6 @@ footer {
 
   .headline-title-text h2 {
     font-size: 50px;
-  }
-
-  .headline-box-text {
-    width: 60%;
   }
 
   .main-program {
@@ -333,5 +336,33 @@ footer {
   .speaker-catagories {
     padding: 0 50px 30px 15px;
     max-width: 40%;
+  }
+
+  .past-conference-text-and-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .past-conference-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .past-conference-img-one {
+    width: 420px;
+  }
+
+  .past-conference-img-two {
+    margin: 0;
+    width: 420px;
+  }
+
+  .past-conference-container {
+    margin: 40px auto 100px auto;
   }
 }
