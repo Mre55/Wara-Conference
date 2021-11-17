@@ -3,11 +3,6 @@ body {
   font-family: Lato, cocogoose, Tahoma, sans-serif;
 }
 
-header {
-  height: 65px;
-  position: fixed;
-}
-
 .only-desktop {
   display: none;
 }
@@ -16,17 +11,19 @@ header {
   display: block;
 }
 
-nav button {
-  border: none;
+.mobile-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid #d3d3d3;
+  padding: 0 10px;
 }
 
-.hamburger-icon img {
-  width: 40px;
-  padding-left: 15px;
-  padding-top: 15px;
+.mobile-nav-bar img {
+  width: 50px;
 }
 
-#headline-section {
+.headline-section {
   background: url("../Images/waraMobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -285,8 +282,9 @@ footer {
     display: block;
   }
 
-  header {
-    width: 100%;
+  .desktop-nav-bar {
+    box-shadow: rgb(0 0 0 / 30%) 0 2px 8px 0;
+    position: relative;
   }
 
   .nav-bar {

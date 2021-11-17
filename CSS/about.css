@@ -1,7 +1,21 @@
-#headline-section {
+
+.mobile-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px solid #d3d3d3;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.mobile-nav-bar img {
+  width: 50px;
+}
+
+.headline-section {
   background: url("../Images/waraAboutMobile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 50px 15px 50px 15px;
 }
 
 .headline-title-text p {

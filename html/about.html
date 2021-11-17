@@ -11,26 +11,34 @@
 <body>
     <header>
         <nav>
-            <button class="only-mobile hamburger-icon">
-                <a href="../index.html">
-                    <img src="../Images/hamburger-icon.svg" alt="">
-                </a>
-            </button>
-            <div class="only-desktop nav-bar">
+            <div class="only-mobile mobile-nav-bar">
                 <a href="../index.html">
                     <img src="../Images/awcflogo.png" alt="Logo of AWCF">
                 </a>
+                <div class="only-mobile hamburger-icon">
+                    <a href="../index.html">
+                        <img src="../Images/hamburger-icon.svg" alt="hamburger icon">
+                    </a>
+                </div>
+            </div>
+            <div class="only-desktop desktop-nav-bar">
+                <a href="#">
+                    <img src="./Images/awcflogo.png" alt="Logo of AWCF">
+                </a>
                 <ul class="menu-bar">
-                  <li><a href="#">About</a></li>
+                  <li><a href="html/about.html">About</a></li>
                   <li><a href="#">Program</a></li>
                   <li><a href="#">Join</a></li>
+                  <li><a href="#">Sponsor</a></li>
+                  <li><a href="#">News</a></li>
+                  <button><a href="#">CC Campaign</a></button>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main>
-        <section id="headline-section">
+        <section class="headline-section">
             <div class="headline-title-text">
                 <p>"Hello! Wara families"</p>
                 <h2>WARA BETHEL CONFERENCE 2021</h2>
@@ -53,7 +61,7 @@
             </div>
         </section>
 
-        <section id="about-logo">
+        <section class="about-logo">
             <div class="about-log-container">
                 <h3>Wara Bethel Conference 2021 Logo</h3>
                 <div class="main-line">
@@ -73,7 +81,7 @@
             </div>
         </section>
 
-        <section id="past-conference">
+        <section class="past-conference">
             <div class="past-conference-container">
                 <h3>See the past Wara Bethel Conference</h3>
                 <div class="main-line">
@@ -100,7 +108,7 @@
             </div>
         </section>
 
-        <section id="partner">
+        <section class="partner">
             <div class="partner-container">
                 <h3>Partner</h3>
                 <div class="main-line">
