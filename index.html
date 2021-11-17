@@ -9,17 +9,36 @@
 </head>
 <body>
     <header>
-        <div class="only-desktop">
-            <a href="#">
-                <img src="./Images/awcflogo.png" alt="Logo of AWCF">
-            </a>
-            <nav></nav>
-        </div>
-        <div class="only-mobile hamburger-icon">
-            <a href="html/about.html">
-                <img src="./Images/hamburger-icon.svg" alt="">
-            </a>
-        </div>
+        <nav>
+            <!-- <button class="only-mobile hamburger-icon">
+                <a href="html/about.html">
+                    <img src="./Images/hamburger-icon.svg" alt="">
+                </a>
+            </button> -->
+            <div class="only-mobile hamburger-icon">
+                <a href="#">
+                    <img src="./Images/awcflogo.png" alt="Logo of AWCF">
+                </a>
+                <button class="only-mobile hamburger-icon">
+                    <a href="html/about.html">
+                        <img src="./Images/hamburger-icon.svg" alt="">
+                    </a>
+                </button>
+            </div>
+            <div class="only-desktop nav-bar">
+                <a href="#">
+                    <img src="./Images/awcflogo.png" alt="Logo of AWCF">
+                </a>
+                <ul class="menu-bar">
+                  <li><a href="html/about.html">About</a></li>
+                  <li><a href="#">Program</a></li>
+                  <li><a href="#">Join</a></li>
+                  <li><a href="#">Sponsor</a></li>
+                  <li><a href="#">News</a></li>
+                  <button><a href="#">CC Campaign</a></button>
+                </ul>
+            </div>
+        </nav>
     </header>
 
     <main>
@@ -41,12 +60,12 @@
             </div>
         </section>
 
-        <section id="main-program">
+        <section class="main-program">
+            <h3>Main Program</h3>
+            <div class="main-line">
+
+            </div>
             <div class="main-program-container">
-                <h3>Main Program</h3>
-                <div class="main-line">
-    
-                </div>
                 <article class="program-catagories">
                     <div class="program-icon">
                         <img src="./Images/preach.png" alt="forum">
@@ -102,9 +121,13 @@
                         <p>"That the world may know that thou has sent me,"</p>
                     </div>
                 </article>
+            </div>
+            <div class="main-program-btn-mobile only-mobile">
                 <button type="button">Join Wara Conference 2021</button>
             </div>
-            
+            <div class="main-program-btn only-desktop">
+                <a href="#">SEE THE WHOLE PROGRAM</a>
+            </div>
         </section>
 
         <section id="featured-speakers">
