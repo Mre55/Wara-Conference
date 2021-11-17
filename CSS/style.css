@@ -190,6 +190,8 @@ section.main-program {
   flex-direction: column;
   align-items: center;
   padding: 0 30px;
+  height: 390px;
+  overflow: hidden;
 }
 
 .featured-speakers h3 {
@@ -198,6 +200,10 @@ section.main-program {
   font-weight: 500;
   margin-bottom: 0;
   text-align: center;
+}
+
+.show-more {
+  height: auto;
 }
 
 .speaker-catagories {
@@ -468,6 +474,7 @@ section.main-program {
     justify-content: center;
     max-width: 1100px;
     flex-wrap: wrap;
+    height: auto;
   }
 
   .speaker-catagories {
