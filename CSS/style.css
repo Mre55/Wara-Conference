@@ -23,6 +23,58 @@ body {
   width: 50px;
 }
 
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #272a31;
+  transition: 200ms ease-in-out;
+  transform: scale(0);
+  z-index: 10;
+}
+
+.mobile-menu.active {
+  transform: scale(1);
+}
+
+.close-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  font-size: 2.25rem;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.close-button:enabled {
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.mobile-menu-list {
+  list-style: none;
+  line-height: 1.5;
+}
+
+.mobile-menu-list a {
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+.mobile-menu-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .headline-section {
   background: url("../Images/waraMobile.jpg");
   background-repeat: no-repeat;
