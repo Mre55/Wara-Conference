@@ -255,7 +255,7 @@ section.main-program {
   padding: 10px;
 }
 
-footer {
+.footer-container {
   display: flex;
   justify-content: space-around;
   border: 1px solid #d3d3d3;

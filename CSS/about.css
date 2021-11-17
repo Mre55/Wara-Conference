@@ -172,9 +172,10 @@
   margin: 0;
 }
 
-footer {
+.footer-mobile {
   display: flex;
   justify-content: space-around;
+  border: 1px solid #d3d3d3;
 }
 
 .footer-logo-img img {
@@ -364,5 +365,16 @@ footer {
 
   .past-conference-container {
     margin: 40px auto 100px auto;
+  }
+
+  .footer-desktop {
+    background: #272a31;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .footer-text {
+    color: #d3d3d3;
   }
 }
