@@ -143,7 +143,8 @@ section.main-program {
   align-items: center;
 }
 
-.main-program-btn-mobile button {
+.main-program-btn-mobile a {
+  text-decoration: none;
   background: #ec5242;
   padding: 30px;
   margin: 40px;
