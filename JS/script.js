@@ -6,6 +6,8 @@ const mobileMenu = document.querySelector('.mobile-menu');
 
 const featuredSpeakersContainer = document.querySelector('.featured-speakers-container');
 const showMoreBtn = document.querySelector('.show-more-btn');
+const showMoreSpan = document.querySelector('.more');
+const showLessSpan = document.querySelector('.down-arrow');
 
 const speakers = [
   {
@@ -79,13 +81,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
         </article>
-    `);
+    `).join('');
   showMoreBtn.addEventListener('click', () => {
     const isMoreClicked = featuredSpeakersContainer.classList.contains('show-more');
     if (isMoreClicked) {
       featuredSpeakersContainer.classList.remove('show-more');
+      showMoreSpan.innerHTML = "MORE";
+      showLessSpan.innerHTML = "&#8964";
+      showLessSpan.classList.add('down-arrow');
+      showLessSpan.classList.remove('up-arrow');
     } else {
       featuredSpeakersContainer.classList.add('show-more');
+      showMoreSpan.innerHTML = "LESS";
+      showLessSpan.innerHTML = "&#8963";
+      showLessSpan.classList.add('up-arrow');
+      showLessSpan.classList.remove('down-arrow');
     }
   });
 });

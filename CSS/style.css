@@ -190,7 +190,7 @@ section.main-program {
   flex-direction: column;
   align-items: center;
   padding: 0 30px;
-  height: 390px;
+  height: 360px;
   overflow: hidden;
 }
 
@@ -256,9 +256,16 @@ section.main-program {
   justify-content: center;
 }
 
-.featured-speakers button span {
+.featured-speakers button .down-arrow {
   color: #ec5242;
-  font-size: 20px;
+  font-size: 35px;
+  margin-top: -18px;
+}
+
+.up-arrow {
+  color: #ec5242;
+  font-size: 35px;
+  margin-bottom: -10px;
 }
 
 .featured-speakers button .more {
