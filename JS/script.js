@@ -86,14 +86,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const isMoreClicked = featuredSpeakersContainer.classList.contains('show-more');
     if (isMoreClicked) {
       featuredSpeakersContainer.classList.remove('show-more');
-      showMoreSpan.innerHTML = "MORE";
-      showLessSpan.innerHTML = "&#8964";
+      showMoreSpan.innerHTML = 'MORE';
+      showLessSpan.innerHTML = '&#8964';
       showLessSpan.classList.add('down-arrow');
       showLessSpan.classList.remove('up-arrow');
     } else {
       featuredSpeakersContainer.classList.add('show-more');
-      showMoreSpan.innerHTML = "LESS";
-      showLessSpan.innerHTML = "&#8963";
+      showMoreSpan.innerHTML = 'LESS';
+      showLessSpan.innerHTML = '&#8963';
       showLessSpan.classList.add('up-arrow');
       showLessSpan.classList.remove('down-arrow');
     }
