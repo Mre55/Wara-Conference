@@ -4,23 +4,31 @@ This is a website that invites the community to attend the upcoming conference a
 
 ## Desktop version Home page
 
-![image](https://user-images.githubusercontent.com/34578631/142381521-9e640eda-5b63-4254-bfd4-5ea38a9cad8e.png)
+<img width="765" alt="Screen Shot 2021-12-08 at 6 16 50 PM" src="https://user-images.githubusercontent.com/34578631/142381521-9e640eda-5b63-4254-bfd4-5ea38a9cad8e.png">
+
+
+
 
 ## Mobile version Home page
+<img width="765" alt="Screen Shot 2021-12-08 at 6 16 50 PM" src="https://user-images.githubusercontent.com/34578631/142383147-de9575c7-b541-420d-a419-b739989dc59f.png">
 
-![image](https://user-images.githubusercontent.com/34578631/142383147-de9575c7-b541-420d-a419-b739989dc59f.png)
+
+
 
 ## Desktop version About page
+<img width="765" alt="Screen Shot 2021-12-08 at 6 16 50 PM" src="https://user-images.githubusercontent.com/34578631/142383428-2f98c879-d4ee-4da6-8b2c-745a8e1567c9.png">
 
-![image](https://user-images.githubusercontent.com/34578631/142383428-2f98c879-d4ee-4da6-8b2c-745a8e1567c9.png)
+
 
 ## Mobile version About page
+<img width="765" alt="Screen Shot 2021-12-08 at 6 16 50 PM" src="https://user-images.githubusercontent.com/34578631/142383491-d3a2c840-73fd-449e-ac41-a42b85b70880.png">
 
-![image](https://user-images.githubusercontent.com/34578631/142383491-d3a2c840-73fd-449e-ac41-a42b85b70880.png)
+
 
 ### Hamburger menu
+<img width="765" alt="Screen Shot 2021-12-08 at 6 16 50 PM" src="https://user-images.githubusercontent.com/34578631/142383530-64db26fb-e705-463e-8282-177d0f507b08.png">
 
-![image](https://user-images.githubusercontent.com/34578631/142383530-64db26fb-e705-463e-8282-177d0f507b08.png)
+
 
 ## Built With
 
